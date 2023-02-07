@@ -1,12 +1,1 @@
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
-
-	/* add box-shadow  */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 500px;
-	max-height: 500px;
-}
+[class~=container]{display:flex;}[class~=container]{flex-direction:column;}[class~=container]{align-items:center;}[class~=container]{justify-content:center;}[class~=container]{width:100%;}[class~=container]{height:100vh;}[class~=container]{box-shadow:0 .25pc 6pt 0 rgba(0,0,0,.2);}[class~=container]{max-width:37.5pc;}[class~=container]{max-height:37.5pc;}[class~=container]{position:absolute;}[class~=container]{top:0;}[class~=container]{left:0;}[class~=container]{right:0;}[class~=container]{bottom:0;}[class~=container]{margin-left:auto;}[class~=container]{margin-bottom:auto;}[class~=container]{margin-right:auto;}[class~=container]{margin-top:auto;}
